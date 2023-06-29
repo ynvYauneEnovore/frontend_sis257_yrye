@@ -20,10 +20,6 @@ const router = createRouter({
       children: [
       { path: '', component: () => import('../components/catproducto/CatProductoList.vue') },
       { path: 'crear', component: () => import('../components/catproducto/CatProductoCreate.vue') },
-      {
-        path: 'editar/:id',
-        component: () => import('../components/catproducto/CatProductoEdit.vue')
-      }
       ]
     },
     

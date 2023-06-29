@@ -7,7 +7,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 *.env
-*Dockerfil
+*Dockerfile
 
 node_modules
 .DS_Store

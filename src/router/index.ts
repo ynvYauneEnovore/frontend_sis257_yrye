@@ -20,23 +20,11 @@ const router = createRouter({
       children: [
       { path: '', component: () => import('../components/catproducto/CatProductoList.vue') },
       { path: 'crear', component: () => import('../components/catproducto/CatProductoCreate.vue') },
+
       ]
     },
     
-    {
-      path: '/producto',
-      name: 'producto',
-      component: () => import('../views/ProductoView.vue'),
-      children: [
-      { path: '', component: () => import('../components/producto/ProductoList.vue') },
-      { path: 'crear', component: () => import('../components/producto/ProductoCreate.vue') },
-      {
-        path: 'editar/:id',
-        component: () => import('../components/producto/ProductoEdit.vue')
-      }
-      ]
-    },
-
+  
     {
       path: '/venta',
       name: 'venta',
@@ -44,10 +32,7 @@ const router = createRouter({
       children: [
       { path: '', component: () => import('../components/ventas/VentaList.vue') },
       { path: 'crear', component: () => import('../components/producto/ProductoCreate.vue') },
-      {
-        path: 'editar/:id',
-        component: () => import('../components/producto/ProductoEdit.vue')
-      }
+
       ]
     },
 

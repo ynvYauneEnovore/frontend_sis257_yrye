@@ -16,7 +16,7 @@ const router = createRouter({
     {
       path: '/catproducto',
       name: 'catproducto',
-      component: () => import('../views/CatProductoView.vue'),
+      component: () => import('../views/catproductoView.vue'),
       children: [
       { path: '', component: () => import('../components/catproducto/CatProductoList.vue') },
       { path: 'crear', component: () => import('../components/catproducto/CatProductoCreate.vue') },

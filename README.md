@@ -33,6 +33,9 @@ npm install
 npm run dev
 ```
 
+
+cambio de modelo
+
 ### Type-Check, Compile and Minify for Production
 
 ```sh
